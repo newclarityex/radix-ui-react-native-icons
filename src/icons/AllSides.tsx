@@ -1,0 +1,2 @@
+import * as React from "react";
+export default <svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none"><path fill="currentColor" d="M7.5 14.25 5.25 12h4.5zM3 9.75.75 7.5 3 5.25zM14.25 7.5 12 9.75v-4.5zM9.75 3h-4.5L7.5.75z" /></svg>;
