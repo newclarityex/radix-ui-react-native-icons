@@ -1,2 +1,3 @@
 import * as React from "react";
-export default <svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none"><path fill="currentColor" d="M3 7a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1zm5.75 0a.5.5 0 0 1 0 1h-2.5a.5.5 0 0 1 0-1zm5.75 0a.5.5 0 0 1 0 1H12a.5.5 0 0 1 0-1z" /></svg>;
+import Svg, { Path } from "react-native-svg";
+export default <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none"><Path fill="currentColor" d="M3 7a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1zm5.75 0a.5.5 0 0 1 0 1h-2.5a.5.5 0 0 1 0-1zm5.75 0a.5.5 0 0 1 0 1H12a.5.5 0 0 1 0-1z" /></Svg>;
