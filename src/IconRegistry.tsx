@@ -1,5 +1,6 @@
 
 import React from "react";
+import { SvgProps } from "react-native-svg";
 import Accessibility from "./icons/Accessibility"
 import ActivityLog from "./icons/ActivityLog"
 import AlignBaseline from "./icons/AlignBaseline"
@@ -349,7 +350,7 @@ import ZoomIn from "./icons/ZoomIn"
 import ZoomOut from "./icons/ZoomOut"
 
 interface IconMap {
-  [key: string]: React.ReactElement;
+  [key: string]: React.FC<SvgProps>;
 }
 
 export const icons = {

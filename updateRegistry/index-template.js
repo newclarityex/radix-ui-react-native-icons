@@ -15,10 +15,11 @@ function defaultIndexTemplate(filePaths) {
   });
   return `
 import React from "react";
+import { SvgProps } from "react-native-svg";
 ${exportEntries.map((entry) => entry.import).join("\n")}
 
 interface IconMap {
-  [key: string]: React.ReactElement;
+  [key: string]: React.FC<SvgProps>;
 }
 
 export const icons = {

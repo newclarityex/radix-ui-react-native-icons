@@ -1,3 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
-export default <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none"><Path fill="currentColor" d="M6.225 3.082a.5.5 0 0 1 .693.694l-.065.078L3.207 7.5l3.646 3.647.065.078a.5.5 0 0 1-.693.693l-.079-.064-4-4a.5.5 0 0 1 0-.707l4-4zm6 0a.5.5 0 0 1 .693.694l-.064.078L9.207 7.5l3.646 3.647.065.078a.5.5 0 0 1-.693.693l-.079-.064-4-4a.5.5 0 0 1 0-.707l4-4z" /></Svg>;
+import type { SvgProps } from "react-native-svg";
+const SvgDoubleArrowLeft = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M6.225 3.082a.5.5 0 0 1 .693.694l-.065.078L3.207 7.5l3.646 3.647.065.078a.5.5 0 0 1-.693.693l-.079-.064-4-4a.5.5 0 0 1 0-.707l4-4zm6 0a.5.5 0 0 1 .693.694l-.064.078L9.207 7.5l3.646 3.647.065.078a.5.5 0 0 1-.693.693l-.079-.064-4-4a.5.5 0 0 1 0-.707l4-4z" /></Svg>;
+export default SvgDoubleArrowLeft;

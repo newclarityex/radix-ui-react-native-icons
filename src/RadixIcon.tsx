@@ -15,11 +15,7 @@ function RadixIcon({
   size = 24,
   color = "black",
 }: RadixIconProps) {
-  return (
-    <Svg width={size} height={size} viewBox="0 0 15 15" fill={color}>
-      {icons[name]}
-    </Svg>
-  );
+  return icons[name]({ width: size, height: size, color });
 }
 
 export default RadixIcon;

@@ -1,3 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
-export default <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none"><Path fill="currentColor" d="M12.103 2.005A1 1 0 0 1 13 3v9l-.005.102a1 1 0 0 1-.893.893L12 13H3l-.103-.005a1 1 0 0 1-.892-.893L2 12V3a1 1 0 0 1 .897-.995L3 2h9zM3 12h9V3H3zm6.525-7.055a.5.5 0 0 1 .825.567L7.09 10.26a.5.5 0 0 1-.797.036l-1.865-2.25-.057-.083a.5.5 0 0 1 .754-.626l.072.071L6.64 9.147z" /></Svg>;
+import type { SvgProps } from "react-native-svg";
+const SvgCheckbox = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M12.103 2.005A1 1 0 0 1 13 3v9l-.005.102a1 1 0 0 1-.893.893L12 13H3l-.103-.005a1 1 0 0 1-.892-.893L2 12V3a1 1 0 0 1 .897-.995L3 2h9zM3 12h9V3H3zm6.525-7.055a.5.5 0 0 1 .825.567L7.09 10.26a.5.5 0 0 1-.797.036l-1.865-2.25-.057-.083a.5.5 0 0 1 .754-.626l.072.071L6.64 9.147z" /></Svg>;
+export default SvgCheckbox;

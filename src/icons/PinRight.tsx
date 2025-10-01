@@ -1,3 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
-export default <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none"><Path fill="currentColor" d="M9.876 7.252c.099.15.099.346 0 .496l-.058.07-3.25 3.25a.45.45 0 0 1-.637-.636L8.413 7.95H.5a.45.45 0 0 1 0-.9h7.913L5.93 4.569l-.057-.07a.451.451 0 0 1 .624-.625l.07.058 3.25 3.25zM12.95 13.5a.45.45 0 0 1-.9 0v-12a.45.45 0 0 1 .9 0z" /></Svg>;
+import type { SvgProps } from "react-native-svg";
+const SvgPinRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M9.876 7.252c.099.15.099.346 0 .496l-.058.07-3.25 3.25a.45.45 0 0 1-.637-.636L8.413 7.95H.5a.45.45 0 0 1 0-.9h7.913L5.93 4.569l-.057-.07a.451.451 0 0 1 .624-.625l.07.058 3.25 3.25zM12.95 13.5a.45.45 0 0 1-.9 0v-12a.45.45 0 0 1 .9 0z" /></Svg>;
+export default SvgPinRight;
