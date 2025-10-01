@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgIdCard = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M14 3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1l-.103-.005A1 1 0 0 1 0 11V4a1 1 0 0 1 1-1zM1 11h13V4H1zm4.75-6a.25.25 0 0 1 .25.25v4.5a.25.25 0 0 1-.25.25h-3.5A.25.25 0 0 1 2 9.75v-4.5A.25.25 0 0 1 2.25 5zm6.75 4a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zm-2-2a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm1-2a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z" /></Svg>;
+const SvgIdCard = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" d="M14 3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1H1l-.103-.005A1 1 0 0 1 0 11V4a1 1 0 0 1 1-1zM1 11h13V4H1zm4.75-6a.25.25 0 0 1 .25.25v4.5a.25.25 0 0 1-.25.25h-3.5A.25.25 0 0 1 2 9.75v-4.5A.25.25 0 0 1 2.25 5zm6.75 4a.5.5 0 0 1 0 1h-5a.5.5 0 0 1 0-1zm-2-2a.5.5 0 0 1 0 1h-3a.5.5 0 0 1 0-1zm1-2a.5.5 0 0 1 0 1h-4a.5.5 0 0 1 0-1z" /></Svg>;
 export default SvgIdCard;

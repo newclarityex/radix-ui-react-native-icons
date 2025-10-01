@@ -6,7 +6,7 @@ unzip -o "radix-icons.zip" -d "radix-icons";
 # Clean up the zip file
 rm "radix-icons.zip";
 # Iterate over the unzipped files and update the icon registry
-npx @svgr/cli --typescript --native --no-prettier --expand-props end --index-template index-template.js --out-dir jsx-icons -- radix-icons
+npx @svgr/cli --no-dimensions --typescript --native --no-prettier --expand-props end --index-template index-template.js --out-dir jsx-icons -- radix-icons
 
 mv -f ./jsx-icons/index.ts ../src/IconRegistry.tsx
 mv -f ./jsx-icons/* ../src/icons/

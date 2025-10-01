@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgAlignEnd = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" fillRule="evenodd" d="M6 11V4h3v7zM5 3.75A.75.75 0 0 1 5.75 3h3.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1-.75-.75zm-3.5 9.3a.45.45 0 0 0 0 .9h12a.45.45 0 1 0 0-.9z" clipRule="evenodd" /></Svg>;
+const SvgAlignEnd = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" fillRule="evenodd" d="M6 11V4h3v7zM5 3.75A.75.75 0 0 1 5.75 3h3.5a.75.75 0 0 1 .75.75v7.5a.75.75 0 0 1-.75.75h-3.5a.75.75 0 0 1-.75-.75zm-3.5 9.3a.45.45 0 0 0 0 .9h12a.45.45 0 1 0 0-.9z" clipRule="evenodd" /></Svg>;
 export default SvgAlignEnd;

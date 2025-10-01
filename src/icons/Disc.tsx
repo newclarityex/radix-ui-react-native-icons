@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgDisc = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M7.5.877a6.623 6.623 0 1 1 0 13.246A6.623 6.623 0 0 1 7.5.877m0 .95A5.674 5.674 0 1 0 7.5 13.17a5.674 5.674 0 0 0-.002-11.345m.187 3.86A1.823 1.823 0 0 1 9.323 7.5l-.01.187A1.824 1.824 0 0 1 7.5 9.323l-.186-.01a1.82 1.82 0 0 1-1.626-1.626l-.01-.187c0-1.006.816-1.822 1.822-1.822zm-.187.941a.872.872 0 1 0 0 1.745.872.872 0 0 0 0-1.745" /></Svg>;
+const SvgDisc = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" d="M7.5.877a6.623 6.623 0 1 1 0 13.246A6.623 6.623 0 0 1 7.5.877m0 .95A5.674 5.674 0 1 0 7.5 13.17a5.674 5.674 0 0 0-.002-11.345m.187 3.86A1.823 1.823 0 0 1 9.323 7.5l-.01.187A1.824 1.824 0 0 1 7.5 9.323l-.186-.01a1.82 1.82 0 0 1-1.626-1.626l-.01-.187c0-1.006.816-1.822 1.822-1.822zm-.187.941a.872.872 0 1 0 0 1.745.872.872 0 0 0 0-1.745" /></Svg>;
 export default SvgDisc;

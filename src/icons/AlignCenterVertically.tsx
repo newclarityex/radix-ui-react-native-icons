@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgAlignCenterVertically = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M8 1a1 1 0 0 1 1 1v5h4.5a.5.5 0 0 1 0 1H9v5a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V8H1.5a.5.5 0 0 1 0-1H6V2a1 1 0 0 1 1-1z" /></Svg>;
+const SvgAlignCenterVertically = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" d="M8 1a1 1 0 0 1 1 1v5h4.5a.5.5 0 0 1 0 1H9v5a1 1 0 0 1-1 1H7a1 1 0 0 1-1-1V8H1.5a.5.5 0 0 1 0-1H6V2a1 1 0 0 1 1-1z" /></Svg>;
 export default SvgAlignCenterVertically;

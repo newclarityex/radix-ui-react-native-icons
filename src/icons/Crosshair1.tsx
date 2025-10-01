@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgCrosshair1 = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M7.502.877a6.626 6.626 0 1 1-.001 13.251A6.626 6.626 0 0 1 7.502.877M8 4.5a.5.5 0 0 1-1 0V1.85A5.676 5.676 0 0 0 1.85 7H4.5a.5.5 0 0 1 0 1H1.85A5.674 5.674 0 0 0 7 13.153V10.5a.5.5 0 1 1 1 0v2.653A5.674 5.674 0 0 0 13.154 8H10.5a.5.5 0 0 1 0-1h2.653A5.675 5.675 0 0 0 8 1.85z" /></Svg>;
+const SvgCrosshair1 = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" d="M7.502.877a6.626 6.626 0 1 1-.001 13.251A6.626 6.626 0 0 1 7.502.877M8 4.5a.5.5 0 0 1-1 0V1.85A5.676 5.676 0 0 0 1.85 7H4.5a.5.5 0 0 1 0 1H1.85A5.674 5.674 0 0 0 7 13.153V10.5a.5.5 0 1 1 1 0v2.653A5.674 5.674 0 0 0 13.154 8H10.5a.5.5 0 0 1 0-1h2.653A5.675 5.675 0 0 0 8 1.85z" /></Svg>;
 export default SvgCrosshair1;

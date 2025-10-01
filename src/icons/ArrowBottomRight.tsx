@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgArrowBottomRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M11.5 12a.5.5 0 0 0 .5-.5V6l-.01-.102a.5.5 0 0 0-.98.001L11 6v4.293L4.353 3.646a.5.5 0 0 0-.707.708L10.293 11H6a.5.5 0 0 0 0 1z" /></Svg>;
+const SvgArrowBottomRight = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" d="M11.5 12a.5.5 0 0 0 .5-.5V6l-.01-.102a.5.5 0 0 0-.98.001L11 6v4.293L4.353 3.646a.5.5 0 0 0-.707.708L10.293 11H6a.5.5 0 0 0 0 1z" /></Svg>;
 export default SvgArrowBottomRight;

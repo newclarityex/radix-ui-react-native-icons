@@ -1,5 +1,5 @@
 import * as React from "react";
 import Svg, { Path } from "react-native-svg";
 import type { SvgProps } from "react-native-svg";
-const SvgSpeakerModerate = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" width={15} height={15} fill="none" {...props}><Path fill="currentColor" d="M7.259 1.062A.5.5 0 0 1 8 1.5v12a.5.5 0 0 1-.8.4L3.333 11H1.5A1.5 1.5 0 0 1 .008 9.654L0 9.5v-4A1.5 1.5 0 0 1 1.5 4h1.833L7.2 1.1zM3.799 4.9A.5.5 0 0 1 3.5 5h-2a.5.5 0 0 0-.5.5v4l.01.1a.5.5 0 0 0 .49.4h2a.5.5 0 0 1 .3.099L7 12.5v-10zm6.48-1.053a.4.4 0 0 1 .502.049l.052.062.13.203a6.41 6.41 0 0 1-.13 6.88.4.4 0 0 1-.666-.444 5.61 5.61 0 0 0 .112-6.019l-.113-.176-.037-.072a.4.4 0 0 1 .15-.483" /></Svg>;
+const SvgSpeakerModerate = (props: SvgProps) => <Svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 15 15" {...props}><Path fill="currentColor" d="M7.259 1.062A.5.5 0 0 1 8 1.5v12a.5.5 0 0 1-.8.4L3.333 11H1.5A1.5 1.5 0 0 1 .008 9.654L0 9.5v-4A1.5 1.5 0 0 1 1.5 4h1.833L7.2 1.1zM3.799 4.9A.5.5 0 0 1 3.5 5h-2a.5.5 0 0 0-.5.5v4l.01.1a.5.5 0 0 0 .49.4h2a.5.5 0 0 1 .3.099L7 12.5v-10zm6.48-1.053a.4.4 0 0 1 .502.049l.052.062.13.203a6.41 6.41 0 0 1-.13 6.88.4.4 0 0 1-.666-.444 5.61 5.61 0 0 0 .112-6.019l-.113-.176-.037-.072a.4.4 0 0 1 .15-.483" /></Svg>;
 export default SvgSpeakerModerate;
